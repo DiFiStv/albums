@@ -4,7 +4,7 @@
     {
       "title": "Путь",
       "year": 2026,
-      "cover": "albums/path/path.png",
+      "cover": "albums/path/path.jpg",
       "tracks": [
         {
           "title": "Бродяга",
@@ -23,7 +23,7 @@
     {
       "title": "Леший",
       "year": 2026,
-      "cover": "albums/goblin/goblin.png",
+      "cover": "albums/goblin/goblin.jpg",
       "tracks": [
         {
           "title": "Лес ночной снова звал меня",
@@ -65,5 +65,6 @@
     }
   ]
 }
+
 
 
