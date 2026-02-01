@@ -1,3 +1,5 @@
+let currentAudio = null;
+
 fetch('data.json')
   .then(res => res.json())
   .then(data => init(data));
@@ -24,14 +26,30 @@ function init(data) {
   function showTracks(album) {
     tracksContainer.innerHTML = `
       <h2>${album.title}</h2>
-      ${album.tracks.map(track => `
+      ${album.tracks.map((track, i) => `
         <div class="track">
           <h3>${track.title}</h3>
-          <audio controls style="width:100%">
+          <audio data-index="${i}" controls>
             <source src="${track.src}" type="audio/mpeg">
           </audio>
         </div>
       `).join('')}
     `;
+
+    setupAudioControls();
   }
+}
+
+function setupAudioControls() {
+  const audios = document.querySelectorAll('audio');
+
+  audios.forEach(audio => {
+    audio.addEventListener('play', () => {
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      }
+      currentAudio = audio;
+    });
+  });
 }
