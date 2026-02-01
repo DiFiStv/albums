@@ -17,6 +17,38 @@
         {
           "title": "Гори",
           "src": "albums/path/03_fire.mp3"
+        },
+        {
+          "title": "Долина",
+          "src": "albums/path/04_valley.mp3"
+        },
+        {
+          "title": "Места",
+          "src": "albums/path/05_places.mp3"
+        },
+        {
+          "title": "Не забывай свои корни",
+          "src": "albums/path/06_roots.mp3"
+        },
+        {
+          "title": "Надо идти",
+          "src": "albums/path/07_needgo.mp3"
+        },
+        {
+          "title": "Хватит ругаться",
+          "src": "albums/path/08_stopswearing.mp3"
+        },
+        {
+          "title": "Ты можешь скрасить мое одиночество",
+          "src": "albums/path/09_paintloneliness.mp3"
+        },
+        {
+          "title": "Не вернуть",
+          "src": "albums/path/10_notreturn.mp3"
+        },
+        {
+          "title": "А ты приди",
+          "src": "albums/path/11_comeback.mp3"
         }
       ]
     },
@@ -65,6 +97,7 @@
     }
   ]
 }
+
 
 
 
