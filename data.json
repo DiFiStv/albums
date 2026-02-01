@@ -4,22 +4,64 @@
     {
       "title": "Путь",
       "year": 2026,
-      "cover": "albums/path/path.jpg",
+      "cover": "albums/path/path.png",
       "tracks": [
         {
           "title": "Бродяга",
-          "src": "albums/path/tramp.mp3"
+          "src": "albums/path/01_tramp.mp3"
         },
         {
           "title": "Там далеко",
-          "src": "albums/path/faraway.mp3"
+          "src": "albums/path/02_faraway.mp3"
         },
         {
           "title": "Гори",
-          "src": "albums/path/fire.mp3"
+          "src": "albums/path/03_fire.mp3"
+        }
+      ]
+    }
+    {
+      "title": "Леший",
+      "year": 2026,
+      "cover": "albums/goblin/goblin.png",
+      "tracks": [
+        {
+          "title": "Лес ночной снова звал меня",
+          "src": "albums/goblin/01_forest.mp3"
+        },
+        {
+          "title": "Русалка",
+          "src": "albums/goblin/02_mermaid.mp3"
+        },
+        {
+          "title": "Полуночная пицца",
+          "src": "albums/goblin/03_pizza.mp3"
+        }
+        {
+          "title": "Мой мир",
+          "src": "albums/goblin/04_myworld.mp3"
+        }
+        {
+          "title": "Тропа",
+          "src": "albums/goblin/05_trail.mp3"
+        }
+        {
+          "title": "Спустись на Землю",
+          "src": "albums/goblin/06_cometoearth.mp3"
+        }
+        {
+          "title": "Дом из бороды",
+          "src": "albums/goblin/07_beardhouse.mp3"
+        }
+        {
+          "title": "Мир окутан",
+          "src": "albums/goblin/08_worldshroud.mp3"
+        }
+        {
+          "title": "Я бы сел у дерева",
+          "src": "albums/goblin/09_tree.mp3"
         }
       ]
     }
   ]
 }
-
